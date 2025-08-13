@@ -1,0 +1,13 @@
+ # variaves
+print("digite seu nome:")
+name = str(input())
+print("digite sua altura:")
+myhight = float(input())
+print("digite sua idade:")
+myage = int(input())
+
+ # visualisação
+print("meu nome é", name)
+print("minha altura é", myhight,"altura")
+print("minha idade é", myage )
+
