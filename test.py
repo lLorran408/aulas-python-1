@@ -1,5 +1,5 @@
 print("qual seu name?")
-nome = str(input())
+nome = input()
 print("quantos anos vc tem?")
 idade = int(input())
 
