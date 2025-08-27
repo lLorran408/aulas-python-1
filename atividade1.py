@@ -28,6 +28,8 @@ while time :="flamengo":
       break 
 
   # atividade 3
-for x in range (10,1 - 1):
-    print(x)
-    
+x = 10
+while x > 0:
+    print(x, end=" ")
+    x = x -1
+print("feliz ano novo")    
