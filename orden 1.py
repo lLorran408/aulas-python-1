@@ -9,7 +9,6 @@ if y < x < z:
     print(y ,x ,z)
 elif y > x >z:
     print(z,x,y)
-<<<<<<< HEAD
 elif z < y < x:
     print(z,y,x)
 elif x < z < y:
@@ -18,6 +17,5 @@ elif z > y > x:
     print(x,y,z)
 else:
     print(y,z,x)
-=======
 
->>>>>>> 52fdbb2abbb4634fc049c418639a86cbbfd93e59
+
