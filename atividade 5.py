@@ -15,14 +15,20 @@ else:
     print("erro de digitação")
 
     # jogo de par ou impar
-    print("vamos jogar impa ou par, você e par")
-    par = 2
-    impar = 1 or 3
+print("vamos jogar impa ou par, você e par")
 
-if par == 3 or 5:
+
+def soma(par,impar):
+    soma = (par + impar) % 2
+    return soma
+import random
+par = int(input("par: "))
+impar = random(0, 10)
+
+
+if soma == 0 :
     print("a maquina ganhou")
-elif impar == 2 or 4:
-    print("você ganhou parabens")
+
 else:
     print("foi impate")
 
