@@ -1,6 +1,6 @@
 #demonstração lista e triplas...
 lista = []
-lista_inteiros = [1.2.3.4.5]
+lista_inteiros = ["1.2.3.4.5"]
 lista_caracteres = ["maçã" ,"banana","cenoreja"]
 lista_mista = [1, "ola" ,3.14, True]
 

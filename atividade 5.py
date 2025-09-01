@@ -17,13 +17,12 @@ else:
     # jogo de par ou impar
 print("vamos jogar impa ou par, você e par")
 
-
+import random
 def soma(par,impar):
     soma = (par + impar) % 2
     return soma
-import random
 par = int(input("par: "))
-impar = random(0, 10)
+impar = random.randint(0, 10)
 
 
 if soma == 0 :
