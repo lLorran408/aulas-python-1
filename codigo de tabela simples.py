@@ -1,13 +1,15 @@
 print("digite quando você tem para pagar a divida")
 int(input())
 x = input
-y = x + 1500
+y = 1500
+def soma(x,y):
+     x - y
+     return soma
 
-if y == 0:
+
+if soma == 0:
     print("a divida foi paga")
-elif y > 1500:
-    print("a divida foi paga seu troco e",y)
-elif y < 1500:
-    print("ainda falta:",y)    
+elif soma > y:
+    print("a divida foi paga seu troco e",soma) 
 else:
     print("???")
