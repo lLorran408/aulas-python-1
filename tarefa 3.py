@@ -6,21 +6,16 @@ tarefas = ["1 limpar a casa",
            "5 arrumr o quintal"]
 print(tarefas)
 print(" vc ja limpou a casa (s/n)")
-resposta = input("s/n")
+resposta = input()
+resposta2 = input()
 if resposta == "s":
     tarefas.remove("1 limpar a casa")
     print("1 tarefa retirada da lista")
     print(tarefas)
 else:
     print("ainde a tarefas a serem feitas", tarefas)
-if resposta == "s":
+if resposta2 == "s":
     tarefas.remove("2 molhar as plantas")
-    print("1 tarefa retirada da lista")
-    print(tarefas)
-else:
-    print("ainde a tarefas a serem feitas", tarefas)
-if resposta == "s":
-    tarefas.remove("3 lavar a lousas")
     print("1 tarefa retirada da lista")
     print(tarefas)
 else:
